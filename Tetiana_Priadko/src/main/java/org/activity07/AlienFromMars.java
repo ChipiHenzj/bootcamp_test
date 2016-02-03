@@ -19,8 +19,8 @@ public class AlienFromMars implements Humanoid, Alien {
 	 */
 	@Override
 	public void doubleWeight() {
-
 		// TODO #1 multiply alien weight by 2.
+		weight *= 2;
 
 	}
 
@@ -33,8 +33,13 @@ public class AlienFromMars implements Humanoid, Alien {
 	 */
 	@Override
 	public void eatHuman(Human human) {
-
 		// TODO #2: implement method, according to description above.
+		if (human.killHimself() == false){
+			human.setLiveCount(0);
+		    weight += human.getWeight();	
+		} else {
+			System.out.println("Human has already died.");
+		}
 
 	}
 
@@ -45,6 +50,7 @@ public class AlienFromMars implements Humanoid, Alien {
 	@Override
 	public void sing() {
 		// TODO #3: Make alien sing to the console.
+		System.out.println("Place for your advertisement!");
 
 	}
 
@@ -56,8 +62,8 @@ public class AlienFromMars implements Humanoid, Alien {
 	 */
 	@Override
 	public boolean killHimself() {
-
 		// TODO #4 implement alien suicide logic.
+		System.out.println("I AM IMMORTAL MUAHAHAHAHA!");
 
 		return false;
 	}

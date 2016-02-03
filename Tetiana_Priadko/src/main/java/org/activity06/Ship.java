@@ -30,10 +30,14 @@ import main.java.org.activity05.Transport;
 	// Else return "Cannot sail on " + Road representation as String
 	public String move(Road road) {
 		if(road instanceof WaterRoad ){
-			return getType() + " is sailing with " + sails + " sails";
+			return getType() + " is sailing on " + road.toString() + " with " + sails + " sails";
 		} else {
 			return "Cannot sail on " + road.toString();
 		}
 		
+	}
+	
+	public byte getSails(){
+		return sails;
 	}
 }

@@ -16,6 +16,9 @@ public class Human implements Humanoid {
 		// HINT: use this. notation to access variables, otherwise their class
 		// value
 		// will overshadow input value
+		this.name = name;
+		setWeight(42);	
+		
 	}
 
 	/**
@@ -30,7 +33,8 @@ public class Human implements Humanoid {
 	// human with specified weight.
 
 	public Human(String name, int weight) {
-
+		this.name = name;
+		this.weight = weight;
 	}
 
 	/**
@@ -39,10 +43,9 @@ public class Human implements Humanoid {
 	 */
 	@Override
 	public void sing() {
-
 		// TODO #3 make Human sing
 		// "Humans are the best creatures in the world" to the console.
-
+		System.out.println("Humans are the best creatures in the world!");
 	}
 
 	/**
@@ -53,10 +56,20 @@ public class Human implements Humanoid {
 	@Override
 	public boolean killHimself() {
 		// TODO #4 all people have 9 lives at the beginning, after each attempt
-		// of suicide they lose one. When lives are depleted, he dies.
-		return false;
+	// of suicide they lose one. When lives are depleted, he dies.
+		
+		if(liveCount == 0){		
+			return true;
+		} else {
+			liveCount--;
+		   if(liveCount > 0){
+			return false;
+		   } else {
+				return true;
+		   }
+		}		
 	}
-
+	
 	/**
 	 * This method returns human name.
 	 * 
