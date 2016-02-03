@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- declared car as a complex element  -->
+<xs:element name="car">
+    <xs:complexType>
+    <!-- internal element must follow the sequence below  -->    
+      <xs:sequence>
+	<!-- this is a simple element -->
+	<xs:element name="model" type="xs:string"/>
+	<xs:element name="color" type="xs:string"/>
+	<xs:element name="year" type="xs:integer"/>
+	<xs:element name="price" type="xs:double"/>
+      </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

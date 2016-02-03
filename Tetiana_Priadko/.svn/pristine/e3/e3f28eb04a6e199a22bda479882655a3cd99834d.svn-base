@@ -1,0 +1,25 @@
+Use GreenUML to create a class diagram for Animal, Mammal, Bird, Dog, Hawk classes.
+Also generate getters and setters for class properties. 
+
+  1. Create class Animal.
+  	1. Add private field int age;
+  	2. Add public method void setAge(int age);
+  	3. Add public method int getAge();
+  2. Create class Mammal, which extends Animal.
+  	1. Add private field boolean isDomestic;
+  	2. Add public method void setIsDomestic(boolean isDomestic);
+  	3. Add public method boolean getIsDomestic();
+  3. Create class Bird, which extends Animal.
+  	1. Add private field boolean canFly.
+  	2. Add public method void setCanFly(boolean canFly);
+  	3. Add public method boolean getCanFly();
+  4. Create class Dog, which extends Mammal.
+  	1. Add private field String name;
+  	2. Add public method void setName(String name);
+  	3. Add public method String getName();
+  5. Create class Hawk, which extends Bird. 
+  	1. Add private field String color;
+  	2. Add public method void setColor(String color);
+  	3. Add public method String getColor();
+	
+	

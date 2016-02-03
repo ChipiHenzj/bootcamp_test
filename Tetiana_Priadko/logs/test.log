@@ -1,0 +1,102 @@
+2016-02-01 16:43:10 INFO  [java.org.activity02.HelloTest] testMain:42 - OK
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<26> but was:<0>
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<28> but was:<0>
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<9> but was:<0>
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<25> but was:<0>
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<2> but was:<0>
+2016-02-02 09:18:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<14> but was:<0>
+2016-02-02 10:37:06 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-02 10:37:06 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-02 10:37:06 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<9> but was:<5>
+2016-02-02 10:37:06 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-02 10:37:06 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-02 10:37:06 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-02 10:38:24 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-02 10:38:24 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-02 10:38:24 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<9> but was:<5>
+2016-02-02 10:38:24 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-02 10:38:24 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-02 10:38:24 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-02 10:43:10 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-02 10:53:19 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-02 10:53:19 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-02 10:54:34 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-02 10:54:34 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-02 11:27:36 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-02 11:27:36 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-02 11:32:23 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Ym ☻
+2016-02-02 12:07:43 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[VIRGO]>
+2016-02-02 12:11:22 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Fuqaw ☹
+2016-02-02 12:11:22 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Uqam ☺
+2016-02-02 12:11:36 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[VIRGO]>
+2016-02-02 12:21:14 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[VIRGO]>
+2016-02-02 12:22:47 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[WRONG INPUT]>
+2016-02-02 12:26:25 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[VIRGO]>
+2016-02-02 12:28:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[LIBRA]> but was:<[VIRGO]>
+2016-02-02 12:29:04 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SCORPIO]> but was:<[LIBRA]>
+2016-02-02 12:29:04 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SCORPIO]> but was:<[LIBRA]>
+2016-02-02 13:53:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SCORPIO]> but was:<[LIBRA]>
+2016-02-02 13:53:55 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SCORPIO]> but was:<[LIBRA]>
+2016-02-02 13:54:58 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-02 13:56:29 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-02 14:19:00 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-02 14:39:58 INFO  [java.org.activity04.ArrayTest] testMain:72 - OK
+2016-02-02 14:39:58 INFO  [java.org.activity04.ArrayTest] testMain:83 - OK
+2016-02-02 15:17:56 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:19:01 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:23:53 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:24:15 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:24:18 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:24:21 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:24:25 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[SUMMER]> but was:<[UNRECOGNISED]>
+2016-02-02 15:51:23 INFO  [java.org.activity04.If_SwitchTest] testLesson3:73 - OK
+2016-02-02 16:09:08 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[I still can fight with one arm left]> but was:<[]>
+2016-02-02 16:09:08 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-02 16:14:21 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[You'l newer win! There are still Cnut, Edward to fight]!> but was:<[Cut off head]!>
+2016-02-02 16:14:21 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-02 16:14:50 INFO  [java.org.activity04.BlackKnightTest] testKnightResponses:59 - OK
+2016-02-02 16:14:50 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-03 10:40:49 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-03 10:56:23 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-03 10:56:53 INFO  [java.org.activity03.OwlFarmTest] testRun:52 - OK
+2016-02-03 10:56:53 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-03 14:18:45 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[]1.2€/l> but was:<... amount: 605l price:[ ]1.2€/l>
+2016-02-03 14:20:48 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[]1.2€/l> but was:<... amount: 605l price:[ ]1.2€/l>
+2016-02-03 14:21:25 ERROR [java.org.activity05.TrafficManagementTest] testRoad:77 - java.lang.AssertionError
+2016-02-03 14:21:25 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:21:25 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:21:35 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[]1.2€/l> but was:<... amount: 605l price:[ ]1.2€/l>
+2016-02-03 14:24:19 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[]1.2€/l> but was:<... amount: 605l price:[ ]1.2€/l>
+2016-02-03 14:24:40 ERROR [java.org.activity05.TrafficManagementTest] testRoad:77 - java.lang.AssertionError
+2016-02-03 14:24:40 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:24:40 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:25:20 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[]1.2€/l> but was:<... amount: 605l price:[ ]1.2€/l>
+2016-02-03 14:29:38 ERROR [java.org.activity05.TrafficManagementTest] testRoad:77 - java.lang.AssertionError
+2016-02-03 14:29:38 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:29:38 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:32:59 ERROR [java.org.activity05.TrafficManagementTest] testRoad:77 - java.lang.AssertionError
+2016-02-03 14:32:59 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:32:59 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:39:19 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:39:19 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:44:39 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:44:39 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:46:54 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:46:54 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-03 14:49:29 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
+2016-02-03 14:49:29 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>

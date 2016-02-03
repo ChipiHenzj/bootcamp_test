@@ -1,0 +1,79 @@
+package main.java.org.activity05;
+
+import java.util.Locale;
+
+public class Transport {
+	protected String id; // Transport registration number
+	private float consumption; // fuel consumption in litres per 100km
+	private int tankSize; // tank size in litres
+	private float fuelInTank; // fuel in tank
+
+	public Transport(String id, float consumption, int tankSize) {
+		// TODO save passed values for Transport
+	}
+
+	public float getConsumption() {
+		// TODO return required value
+		return 0;
+	}
+
+	public int getTankSize() {
+		// TODO return required value
+		return 0;
+	}
+
+	public String getId() {
+		// TODO return required value
+		return "";
+
+	}
+
+	// Return transport id and type as string e.g. "AAA Transport"
+	// HINT: use this.getClass().getSimpleName(); to get type of transport
+	protected final String getType() {
+		// TODO return required value
+		return "";
+	}
+
+	// HINT: use getType() to describe transport and road.toString() to describe
+	// road
+	// HINT: String.format(Locale.US, "%.2f", float) to format float number with
+	// fixed mask
+	public String move(Road road) {
+		// TODO If transport has enough fuel, decrease actual amount of fuel by
+		// necessary amount and return String in form:
+		// "AAA Type is moving on From–To, 180km"
+		// TODO If there is no enough fuel in tank, return string in form:
+		// "Cannot move on From–To, 180km. Necessary
+		// fuel:0.00l, fuel in tank:0.00l"
+		return "";
+	}
+
+	public void fillTank(Fuel fuel) {
+		// TODO fill fuel tank with amount free space in tank
+		// decrease amount of passed fuel with this amount
+	}
+
+	public float getFuelInTank() {
+		// TODO return required value
+		return 0;
+	}
+
+	// HINT: use String.format(Locale.US, "%.2f", float) to limit shown numbers
+	// to 2 decimal for fractions, and dot as a decimal delimiter.
+	public String toString() {
+		// TODO return string in form:
+		// "Id:A cons:0.0l/100km, tank:00l, speed: 000km/h, fuel:00.00l"
+		return "";
+	}
+
+	public boolean equals(Object obj) {
+		// TODO return true, if current transport and passed transport has the
+		// same id
+		// Otherwise return false
+		// HINT use "obj instanceof Transport", to check, that passed object has
+		// proper type
+		return false;
+	}
+
+}

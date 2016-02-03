@@ -1,0 +1,65 @@
+package main.java.org.activity05;
+
+public class TrafficManagementSystem {
+	static Fuel fuel;
+	static Transport[] transports;
+	static Road[] roads;
+
+	public static void initSystem(int roads, int transport, int fuelAmount,
+			float fuelPrice) {
+		// TODO save passed values into structures of Traffic Management System
+	}
+
+	public static Transport[] getTransports() {
+		// TODO return required value
+		return null;
+	}
+
+	public static void addTransport(int i) {
+		// TODO create new array of transports in size of passed value
+	}
+
+	public static void setVehicle(Transport transport, int i) {
+		// TODO set passed transport into passed cell of transports array
+	}
+
+	public static void addRoads(int i) {
+		// TODO create new array of roads in size of passed value
+	}
+
+	public static Road[] getRoads() {
+		// TODO return required value
+		return null;
+	}
+
+	public static void setRoad(Road road, int i) {
+		// TODO set passed road into passed cell of roads array
+	}
+
+	public static double maxDistance(Transport transport) {
+		// TODO Calculate maximum distance transport can make with full tank
+		return 0;
+	}
+
+	public static void fillTransportTanks() {
+		// TODO fill all fuel tanks of all transports with fuel
+	}
+
+	public static boolean canDriveDistance(Transport transport, Road road) {
+		// TODO Calculate if passed transport can drive passed road
+		return false;
+	}
+
+	public static boolean canDriveInPrice(Transport transport, Road road,
+			float price) {
+		// TODO Calculate if passed transport can drive passed road in passed
+		// price
+		return false;
+	}
+
+	public static Fuel getFuel() {
+		// TODO return reference to fuel of Traffic Management System
+		return null;
+	}
+
+}

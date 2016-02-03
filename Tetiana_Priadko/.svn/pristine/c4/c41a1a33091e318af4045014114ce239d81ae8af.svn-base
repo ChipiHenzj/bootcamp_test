@@ -1,0 +1,39 @@
+package main.java.org.activity05;
+
+public class Road {
+	private String from; // Start point
+	private String to; // End point
+	private int distance; // distance in km
+
+	public int getDistance() {
+		// TODO return distance of the road
+		return 0;
+	}
+
+	public String toString() {
+		// TODO return string in form: "From — To, 00km"
+		// Note that — is not dash ("minus key" in jargon), but m-dash!
+		// See more at: https://en.wikipedia.org/wiki/Dash
+		return "";
+	}
+
+	// HINT use "obj instanceof Road", to check, that passed object has proper
+	// type
+	public boolean equals(Object obj) {
+		// TODO return true, if current road and passed road has the same start,
+		// end points and distance. Note that direction of road is not
+		// important, but distance is (different distance means different
+		// route)
+		return false;
+	}
+
+	public Road() {
+		// TODO implement Road constructor that without parameters
+		// values are set to "" or 0;
+	}
+
+	public Road(String from, String to, int distance) {
+		// TODO save passed values into road properties
+	}
+
+}

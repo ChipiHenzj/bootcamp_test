@@ -1,0 +1,37 @@
+package main.java.org.activity05;
+
+public class Fuel {
+
+	private int totalAmount;
+	private float price; // price in €/l
+
+	public Fuel(int newAmount) {
+		// TODO set total amount of fuel according to the passed value
+	}
+
+	public void setPrice(float newPrice) {
+		// TODO set price of the fuel according to the passed value
+	}
+
+	public void useFuel(int amount) {
+		// TODO decrease total amount of fuel according to the passed value
+	}
+
+	public float getPrice() {
+		// TODO return price of the fuel
+		return 0;
+	}
+
+	public int getTotalAmount() {
+		// TODO return total amount of the fuel
+		return 0;
+	}
+
+	// TODO override .toString() method for fuel to return string in format:
+	// "Total amount: 10l price: 1.20€/l"
+
+	public String toString() {
+		return "";
+	}
+
+}
