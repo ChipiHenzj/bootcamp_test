@@ -7,11 +7,11 @@ public class TinyFloatException extends Exception {
 	
 	public TinyFloatException() {
 		super();
-		// TODO Auto-generated constructor stub
+		//  Auto-generated constructor stub
 	}
 
 	public TinyFloatException(String string) {
-		// TODO implement constructor for TinyFloatException(String string)
+		// implement constructor for TinyFloatException(String string)
 		super(string);
 		
 	}

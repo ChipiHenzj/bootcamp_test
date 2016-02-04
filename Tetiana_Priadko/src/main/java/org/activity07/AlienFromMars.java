@@ -10,6 +10,7 @@ public class AlienFromMars implements Humanoid, Alien {
 	 * @param weight
 	 *            represents new alien weight.
 	 */
+
 	public AlienFromMars(int weight) {
 		this.weight = weight;
 	}
@@ -17,11 +18,11 @@ public class AlienFromMars implements Humanoid, Alien {
 	/**
 	 * This method doubles the current alien weight.
 	 */
+
 	@Override
 	public void doubleWeight() {
-		// TODO #1 multiply alien weight by 2.
+		// #1 multiply alien weight by 2.
 		weight *= 2;
-
 	}
 
 	/**
@@ -31,27 +32,27 @@ public class AlienFromMars implements Humanoid, Alien {
 	 * @param human
 	 *            - represents human, which will be eaten.
 	 */
+
 	@Override
 	public void eatHuman(Human human) {
-		// TODO #2: implement method, according to description above.
-		if (human.killHimself() == false){
+		// #2: implement method, according to description above.
+		if (human.killHimself() == false) {
 			human.setLiveCount(0);
-		    weight += human.getWeight();	
+			weight += human.getWeight();
 		} else {
 			System.out.println("Human has already died.");
 		}
-
 	}
 
 	/**
 	 * This method makes alien to say "Place for your advertisement!" to the
 	 * console.
 	 */
+
 	@Override
 	public void sing() {
-		// TODO #3: Make alien sing to the console.
+		// #3: Make alien sing to the console.
 		System.out.println("Place for your advertisement!");
-
 	}
 
 	/**
@@ -60,11 +61,11 @@ public class AlienFromMars implements Humanoid, Alien {
 	 * 
 	 * @return false, because alien cannot be killed.
 	 */
+
 	@Override
 	public boolean killHimself() {
-		// TODO #4 implement alien suicide logic.
+		// #4 implement alien suicide logic.
 		System.out.println("I AM IMMORTAL MUAHAHAHAHA!");
-
 		return false;
 	}
 
@@ -85,6 +86,5 @@ public class AlienFromMars implements Humanoid, Alien {
 	@Override
 	public void setWeight(int weight) {
 		this.weight = weight;
-
 	}
 }

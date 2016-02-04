@@ -10,7 +10,6 @@ public class Transport {
 
 	public Transport(String id, float consumption, int tankSize) {
 		// save passed values for Transport
-
 		this.id = id;
 		this.consumption = consumption;
 		this.tankSize = tankSize;
@@ -18,28 +17,23 @@ public class Transport {
 
 	public float getConsumption() {
 		// return required value
-
 		return consumption;
 	}
 
 	public int getTankSize() {
 		// return required value
-
 		return tankSize;
 	}
 
 	public String getId() {
 		// return required value
-
 		return id;
-
 	}
 
 	// Return transport id and type as string e.g. "AAA Transport"
 	// HINT: use this.getClass().getSimpleName(); to get type of transport
 	protected final String getType() {
 		// return required value
-
 		return id + " " + this.getClass().getSimpleName();
 	}
 
@@ -56,53 +50,41 @@ public class Transport {
 		// "Cannot move on From–To, 180km. Necessary
 		// fuel:0.00l, fuel in tank:0.00l"
 
-		float cutted = ((float) road.getDistance()) / 100;
+		float necessaryAmount = (((float) road.getDistance()) / 100 * consumption);
 
-		if ((cutted * consumption) <= fuelInTank) {
-			fuelInTank -= (cutted * consumption);
+		if (necessaryAmount <= fuelInTank) {
+			fuelInTank -= necessaryAmount;
 			return getType() + " is moving on " + road.toString();
 		} else {
 			return "Cannot move on " + road.toString() + ". Necessary fuel:"
-					+ String.format(Locale.US, "%.2f", (cutted * consumption))
+					+ String.format(Locale.US, "%.2f", necessaryAmount)
 					+ "l, fuel in tank:"
 					+ String.format(Locale.US, "%.2f", fuelInTank) + "l";
 		}
-	}
-
-	public boolean CanMoveRoad(Road road) {
-		float cutted = ((float) road.getDistance()) / 100;
-		if ((cutted * consumption) <= fuelInTank) {
-			return true;
-		} else {
-			return false;
-		}
-
 	}
 
 	public void fillTank(Fuel fuel) {
 		// fill fuel tank with amount free space in tank
 		// decrease amount of passed fuel with this amount
 
-		if (fuel.getTotalAmount() > (((float) tankSize) - fuelInTank)) {
+		// if (fuel.getTotalAmount() > (((float)tankSize) - fuelInTank)) {
+		// int unnecessary = (int)(fuel.getTotalAmount() - (tankSize -
+		// fuelInTank));
+		// fuelInTank += (fuel.getTotalAmount() - unnecessary);
+		// int totalFuel = TrafficManagementSystem.fuel.getTotalAmount();
+		// totalFuel = unnecessary;
+		// TrafficManagementSystem.fuel.setTotalAmount(totalFuel);
+		// } else {
+		// fuelInTank += fuel.getTotalAmount();
+		// }
 
-			int unnecessary = (int) (fuel.getTotalAmount() - (tankSize - fuelInTank));
-
-			fuelInTank += (fuel.getTotalAmount() - unnecessary);
-
-			int totalFuel = TrafficManagementSystem.fuel.getTotalAmount();
-
-			totalFuel = unnecessary;
-
-			TrafficManagementSystem.fuel.setTotalAmount(totalFuel);
-		} else {
-			fuelInTank += fuel.getTotalAmount();
-		}
-
+		float empty = (float) tankSize - fuelInTank;
+		fuel.useFuel((int) empty);
+		fuelInTank = tankSize;
 	}
 
 	public float getFuelInTank() {
 		// return required value
-
 		return fuelInTank;
 	}
 
@@ -111,11 +93,10 @@ public class Transport {
 	public String toString() {
 		// return string in form:
 		// "Id:A cons:0.0l/100km, tank:00l, speed: 000km/h, fuel:00.00l"
-
 		return "Id:" + id + " cons:"
 				+ String.format(Locale.US, "%.1f", consumption) + "l/100km, "
 				+ "tank:" + tankSize + "l, " +
-				// speed?????
+				// speed
 				"fuel:" + String.format(Locale.US, "%.2f", fuelInTank) + "l";
 	}
 
@@ -125,7 +106,6 @@ public class Transport {
 		// Otherwise return false
 		// HINT use "obj instanceof Transport", to check, that passed object has
 		// proper type
-
 		if (obj instanceof Transport) {
 			if (this.id.equals(((Transport) obj).getId())) {
 				return true;
@@ -135,7 +115,5 @@ public class Transport {
 		} else {
 			return false;
 		}
-
 	}
-
 }

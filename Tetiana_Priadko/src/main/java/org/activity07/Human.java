@@ -11,14 +11,14 @@ public class Human implements Humanoid {
 	 * @param name
 	 *            represents the name for new human.
 	 */
+	
 	public Human(String name) {
-		// TODO #1 create new human, assign him a name and make him weigh 42.
+		// #1 create new human, assign him a name and make him weigh 42.
 		// HINT: use this. notation to access variables, otherwise their class
 		// value
 		// will overshadow input value
 		this.name = name;
 		setWeight(42);	
-		
 	}
 
 	/**
@@ -29,7 +29,7 @@ public class Human implements Humanoid {
 	 *            represents the new human with output weight.
 	 */
 
-	// TODO #2 Overload the main constructor to create an opportunity to create
+	// #2 Overload the main constructor to create an opportunity to create
 	// human with specified weight.
 
 	public Human(String name, int weight) {
@@ -43,7 +43,7 @@ public class Human implements Humanoid {
 	 */
 	@Override
 	public void sing() {
-		// TODO #3 make Human sing
+		//  #3 make Human sing
 		// "Humans are the best creatures in the world" to the console.
 		System.out.println("Humans are the best creatures in the world!");
 	}
@@ -53,9 +53,10 @@ public class Human implements Humanoid {
 	 * 
 	 * @return true if human died, false if not.
 	 */
+	
 	@Override
 	public boolean killHimself() {
-		// TODO #4 all people have 9 lives at the beginning, after each attempt
+	// #4 all people have 9 lives at the beginning, after each attempt
 	// of suicide they lose one. When lives are depleted, he dies.
 		
 		if(liveCount == 0){		
@@ -75,6 +76,7 @@ public class Human implements Humanoid {
 	 * 
 	 * @returns current human name.
 	 */
+	
 	public String getName() {
 		return name;
 	}
@@ -85,6 +87,7 @@ public class Human implements Humanoid {
 	 * @param name
 	 *            for which we need to change.
 	 */
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -94,6 +97,7 @@ public class Human implements Humanoid {
 	 * 
 	 * @returns current human liveCount.
 	 */
+	
 	public int getLiveCount() {
 		return liveCount;
 	}
@@ -104,6 +108,7 @@ public class Human implements Humanoid {
 	 * @param current
 	 *            human liveCount.
 	 */
+	
 	public void setLiveCount(int life) {
 		this.liveCount = life;
 	}
@@ -113,6 +118,7 @@ public class Human implements Humanoid {
 	 * 
 	 * @returns current human weight.
 	 */
+	
 	@Override
 	public int getWeight() {
 		return this.weight;
@@ -124,6 +130,7 @@ public class Human implements Humanoid {
 	 * @param weight
 	 *            represents value for which we need to change.
 	 */
+	
 	@Override
 	public void setWeight(int weight) {
 		this.weight = weight;
