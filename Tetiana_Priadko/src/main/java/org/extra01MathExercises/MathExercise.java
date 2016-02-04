@@ -7,6 +7,11 @@ public class MathExercise {
 		int commonDivisior = 0;
 		// TODO #1: Implement method that returns largest common divisor of
 		// passed values
+		
+		BigInteger b1 = BigInteger.valueOf(number1);
+	    BigInteger b2 = BigInteger.valueOf(number2);
+	    BigInteger gcd = b1.gcd(b2);
+	    commonDivisior = gcd.intValue();
 
 		return commonDivisior;
 	}

@@ -2,6 +2,8 @@ package main.java.org.activity05;
 
 import java.util.Locale;
 
+import main.java.org.activity06.WaterRoad;
+
 public class Transport {
 	protected String id; // Transport registration number
 	private float consumption; // fuel consumption in litres per 100km

@@ -12,7 +12,22 @@ public class GetOne {
 		// 6->3->10->5->16->8->4->2->1. Iteration count=8.
 		// HINT: Use while loop.
 		int iterationCount = 0;
+		while(number != 1){
+			if((number % 2) == 0){
+				number /= 2;
+				iterationCount++;
+			} else {
+				number *= 3;
+				number++;
+				iterationCount++;
+			}
+		}
 		return iterationCount;
+	}
+	
+	public static void main(String[] args){
+		GetOne test = new GetOne();
+		System.out.println(test.maxNumbers(200));
 	}
 
 	public int maxNumbers(int numberlimit) {
@@ -20,6 +35,16 @@ public class GetOne {
 		// TODO #2: Calculate how many iterations each number from 1 to
 		// numberlimit (excluding numberlimit itself) needs to get value till 1.
 		// Return the number, which takes most iterations to do that.
+		while(numberlimit != 1){
+			if((numberlimit % 2) == 0){
+				numberlimit /= 2;
+				longestPath++;
+			} else {
+				numberlimit -= 1;
+//				numberlimit++;
+				longestPath++;
+			}
+		}
 		return longestPath;
 	}
 }

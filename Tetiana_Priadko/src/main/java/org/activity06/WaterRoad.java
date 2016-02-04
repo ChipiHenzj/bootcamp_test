@@ -23,8 +23,8 @@ public class WaterRoad extends Road {
 	// HINT use .getClass().getSimpleName() to get Type and reuse toString() of
 	// Road
 	public String toString() {
-		return this.getClass().getSimpleName() + getFrom() + " — " + getTo()
-				+ "," + getDistance() + "km";
+		return this.getClass().getSimpleName() + " " + getFrom() + " — " + getTo()
+				+ ", " + getDistance() + "km";
 	}
 
 	// override .equals() method to return true, if current and ground

@@ -8,7 +8,7 @@ import main.java.org.activity05.Transport;
 //  implement Vehicle class as a subclass of Transport
 public class Vehicle extends Transport {
 	// #1: Create variable to store number of wheels for Vehicle
-	private int wheels;
+	protected int wheels;
 
 	/**
 	 * @param id
@@ -32,12 +32,16 @@ public class Vehicle extends Transport {
 
 	public String move(Road road) {
 
+		if(road instanceof WaterRoad){
+			return "Cannot drive on " + road.toString();
+		}
+		
 		String result = super.move(road);
 		if (result.startsWith(id)) {
 			return getType() + " is driving on " + road.toString() + " with "
 					+ wheels + " wheels";
 		} else {
-			return "Cannot move on " + road.toString();
+			return super.move(road)/*"Cannot move on " + road.toString()*/;
 		}
 	}
 
