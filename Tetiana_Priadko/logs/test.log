@@ -100,3 +100,515 @@
 2016-02-03 14:46:54 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
 2016-02-03 14:49:29 ERROR [java.org.activity05.TrafficManagementTest] testTransport:96 - org.junit.ComparisonFailure: expected:<Id:A cons:5.0[]l/100km, tank:55l, f...> but was:<Id:A cons:5.0[0]l/100km, tank:55l, f...>
 2016-02-03 14:49:29 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<Id:C cons:8.0[]l/100km, tank:300l, ...> but was:<Id:C cons:8.0[0]l/100km, tank:300l, ...>
+2016-02-04 09:14:59 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 09:14:59 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[d697 Amphibia is driving with 6 wheels on Rīga — Ogre, 37km]> but was:<[]>
+2016-02-04 09:14:59 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 09:21:49 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 09:21:49 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[7f81 Amphibia is driving with 5 wheels on Rīga — Ogre, 37km]> but was:<[]>
+2016-02-04 09:21:50 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 09:28:22 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 09:28:22 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 09:28:22 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 09:29:03 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 09:29:03 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 09:29:03 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:41:53 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-04 10:41:53 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-04 10:41:53 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-04 10:41:53 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-04 10:41:53 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-04 10:41:59 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-04 10:41:59 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-04 10:41:59 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-04 10:41:59 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-04 10:43:30 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 10:43:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:43:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:51:34 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-04 10:51:34 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-04 10:51:34 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-04 10:51:34 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-04 10:51:59 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-04 10:51:59 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-04 10:51:59 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-04 10:51:59 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-04 10:51:59 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-04 10:53:26 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 10:53:26 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:53:26 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:53:51 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 10:53:51 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 10:53:51 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:08:57 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:08:57 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...bia is driving with [1]0 wheels on Rīga — O...> but was:<...bia is driving with []0 wheels on Rīga — O...>
+2016-02-04 11:08:57 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:09:54 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:09:54 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problem: 
+	Type mismatch: cannot convert from int to byte
+
+2016-02-04 11:09:54 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:10:25 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:10:25 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:10:25 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:10:52 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:10:52 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:10:52 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:16:22 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:16:22 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problem: 
+	wheels cannot be resolved to a variable
+
+2016-02-04 11:16:22 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:18:27 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:18:27 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:18:27 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:20:35 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 11:20:35 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:20:35 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 11:50:20 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<[A Transport is moving on Rīga — Ogre, 37km]> but was:<[Cannot move on Rīga — Ogre, 37km. Necessary fuel:185.00l, fuel in tank:55.00l]>
+2016-02-04 11:50:42 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<C[ Transport is moving on Rīga — Ventspils, 180km]> but was:<C[annot move on Rīga — Ventspils, 180km. Necessary fuel:22.50l, fuel in tank:7.50l]>
+2016-02-04 11:51:34 ERROR [java.org.activity05.TrafficManagementTest] testSystem:138 - org.junit.ComparisonFailure: expected:<C[ Transport is moving on Rīga — Ventspils, 180km]> but was:<C[annot move on Rīga — Ventspils, 180km. Necessary fuel:22.50l, fuel in tank:7.50l]>
+2016-02-04 12:00:13 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 12:00:13 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:00:14 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:01:14 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 12:01:14 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:01:14 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:06:45 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 12:06:45 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:06:45 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 12:31:07 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 12:31:07 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 12:31:07 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<586c1 Vehicle is [driving on Rīga — Ogre, 37km ]with 10 wheels> but was:<586c1 Vehicle is [moving on Rīga — Ogre, 37km]with 10 wheels>
+2016-02-04 13:30:01 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:30:01 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:30:01 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problems: 
+	The field Transport.consumption is not visible
+	The field Transport.fuelInTank is not visible
+	The field Transport.fuelInTank is not visible
+	The field Transport.consumption is not visible
+	The field Transport.consumption is not visible
+	The field Transport.fuelInTank is not visible
+
+2016-02-04 13:33:17 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:33:17 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:33:17 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[ ]with 4 wheels> but was:<...on Rīga — Ogre, 37km[]with 4 wheels>
+2016-02-04 13:33:42 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:33:42 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:33:42 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[938c1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 5 wheels]>
+2016-02-04 13:35:38 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:35:38 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:35:38 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [mo]ve on Rīga — Ogre, 3...> but was:<Cannot [dri]ve on Rīga — Ogre, 3...>
+2016-02-04 13:36:15 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:36:15 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:36:15 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[64641 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 9 wheels]>
+2016-02-04 13:40:28 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:40:28 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:40:28 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[1efc1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 1 wheels]>
+2016-02-04 13:46:35 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:46:35 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:46:35 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[8e171 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 6 wheels]>
+2016-02-04 13:47:07 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:47:07 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:47:07 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [mo]ve on Rīga — Ogre, 3...> but was:<Cannot [dri]ve on Rīga — Ogre, 3...>
+2016-02-04 13:47:22 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:47:22 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:47:22 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problem: 
+	new_result1 cannot be resolved to a variable
+
+2016-02-04 13:47:36 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:47:36 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:47:36 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[13d71 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 4 wheels]>
+2016-02-04 13:52:13 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:52:13 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:52:13 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<Cannot [drive on Rīga — Ogre, 37km]>
+2016-02-04 13:52:45 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:52:45 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:52:45 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 13:59:56 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 13:59:56 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 13:59:56 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<6fc01 Vehicle i[s driving on Rīga — Ogre, 37km] with 6 wheels> but was:<6fc01 Vehicle i[d driving] with 6 wheels>
+2016-02-04 14:00:22 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:00:22 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:00:22 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... Vehicle is driving [on Rīga — Ogre, 37km ]with 3 wheels> but was:<... Vehicle is driving []with 3 wheels>
+2016-02-04 14:02:34 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:02:34 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:02:34 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[87041 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 3 wheels]>
+2016-02-04 14:04:05 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:04:05 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:04:05 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[5edd1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 4 wheels]>
+2016-02-04 14:04:51 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:04:51 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:04:51 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<[666f1 Vehicle is driving on Rīga — Ogre, 37km with 4 wheels]>
+2016-02-04 14:06:25 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:06:25 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:06:25 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<[34491 Vehicle is driving on Rīga — Ogre, 37km with 3 wheels]>
+2016-02-04 14:15:54 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:15:54 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:15:54 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<[22551 Vehicle is driving on Rīga — Ogre, 37km with 9 wheels]>
+2016-02-04 14:16:41 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:16:41 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:16:41 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[e6a01 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 2 wheels]>
+2016-02-04 14:22:33 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:22:33 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:22:33 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [mo]ve on Rīga — Ogre, 3...> but was:<Cannot [dri]ve on Rīga — Ogre, 3...>
+2016-02-04 14:22:46 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:22:46 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:22:46 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [drive on WaterRoad Rīga — Ventspils, 240km]> but was:<Cannot [move on WaterRoadRīga — Ventspils,240km. Necessary fuel:24.00l, fuel in tank:23.60l]>
+2016-02-04 14:24:51 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:24:51 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:24:51 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 14:25:50 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:25:50 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:25:50 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [drive on WaterRoad Rīga — Ventspils, 240km]> but was:<Cannot [move on WaterRoadRīga — Ventspils,240km. Necessary fuel:24.00l, fuel in tank:23.60l]>
+2016-02-04 14:26:20 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:26:20 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:26:20 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[b67a1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 3 wheels]>
+2016-02-04 14:32:55 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:32:55 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:32:55 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<97e91 Vehicle is [dri]ving on Rīga — Ogre,...> but was:<97e91 Vehicle is [mo]ving on Rīga — Ogre,...>
+2016-02-04 14:37:20 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:37:20 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:37:20 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problem: 
+	Invalid character constant
+
+2016-02-04 14:38:52 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:38:52 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:38:52 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<70181 Vehicle is [dri]ving on Rīga — Ogre,...> but was:<70181 Vehicle is [mo]ving on Rīga — Ogre,...>
+2016-02-04 14:39:08 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:39:08 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:39:08 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[d0111 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 10 wheels]>
+2016-02-04 14:41:21 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:41:21 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:41:21 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[b85b1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 7 wheels]>
+2016-02-04 14:48:43 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:48:43 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:48:43 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[19ca1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 3 wheels]>
+2016-02-04 14:50:20 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:50:20 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:50:20 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[5b591 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 8 wheels]>
+2016-02-04 14:53:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[6d3b1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 10 wheels]>
+2016-02-04 14:53:29 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:53:29 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:53:39 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 14:53:39 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 14:53:39 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[3beb1 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 8 wheels]>
+2016-02-04 15:24:51 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 15:24:51 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 15:24:51 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<Cannot [drive on Rīga — Ogre, 37km]>
+2016-02-04 15:25:10 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 15:25:10 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 15:25:10 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 15:28:04 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 15:28:04 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 15:28:04 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 15:36:34 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<... amount: 605l price:[1.2]€/l> but was:<... amount: 605l price:[0.0]€/l>
+2016-02-04 16:02:54 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:02:54 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:02:54 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:08:52 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:08:52 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:08:52 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:15:29 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:15:29 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:15:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:26:19 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:26:19 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:26:19 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:28:25 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:28:25 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:28:25 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:28:45 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:28:45 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:28:45 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot [move on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<Cannot [drive on Rīga — Ogre, 37km]>
+2016-02-04 16:29:45 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:29:45 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:29:45 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<Cannot move[ on Rīga — Ogre, 37km. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<Cannot move[ve on Rīga — Ogre, 37km]>
+2016-02-04 16:32:00 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:32:00 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:32:00 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:33:50 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:33:50 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:33:50 ERROR [test.java.org.TestUtils] handleError:138 - FAILED Unresolved compilation problem: 
+	Unreachable code
+
+2016-02-04 16:34:03 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:34:03 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:34:03 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[29551 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 8 wheels]>
+2016-02-04 16:35:29 INFO  [java.org.activity02.HelloTest] testMain:42 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Z ☹
+2016-02-04 16:35:29 INFO  [java.org.activity04.ArrayTest] testMain:72 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity04.ArrayTest] testMain:83 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity04.If_SwitchTest] testLesson3:73 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity04.BlackKnightTest] testKnightResponses:59 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[d9391 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 1 wheels]>
+2016-02-04 16:35:29 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-04 16:35:29 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<{peanuts=2, eggs=10, candies=8, fishes=2}> but was:<{}>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[eggs, orange]> but was:<[]>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[orange, eggs, bread, fish]> but was:<[]>
+2016-02-04 16:35:29 INFO  [java.org.activity11.ArrayFillerManagerTest] testLatency:48 - Sequential processing time: 0 ms
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.AssertionError
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[JAVA.LANG.FLOAT
+JAVA.LANG.LONG
+JAVA.LANG.INTEGER
+JAVA.LANG.DOUBLE
+]> but was:<[]>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<NEW_YEAR> but was:<null>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - junit.framework.AssertionFailedError
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<3> but was:<-1>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - junit.framework.AssertionFailedError
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<2> but was:<0>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<4> but was:<0>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<3> but was:<0>
+2016-02-04 16:35:29 ERROR [java.org.activity17.CrocodileGameTest] testRun:61 - logged at error:expected:<[Greedy crocodile wins the game]> but was:<[]>
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.reflect.InvocationTargetException
+2016-02-04 16:35:29 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.AssertionError
+2016-02-04 16:35:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 16:35:30 ERROR [java.org.activity20.LambdaClassTest1] testLambdaClass:31 - FAILED: message:Values should be different. Actual:  cause:null
+2016-02-04 16:35:30 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[BLACK SQUARE GREEN TRIANGLE]> but was:<[]>
+2016-02-04 16:35:30 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<FIRSTSTATECHANGE:7[THISISAPRIMENUMBER:TRUEFACTORIALIS:5040NUMBERINPOWER4IS:2401.0SECONDSTATECHANGE:4THISISAPRIMENUMBER:FALSEFACTORIALIS:24NUMBERINPOWER4IS:256.0]> but was:<FIRSTSTATECHANGE:7[SECONDSTATECHANGE:4]>
+2016-02-04 16:35:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-04 16:35:31 INFO  [hibernate.annotations.common.Version] <clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-02-04 16:35:31 INFO  [org.hibernate.Version] logVersion:41 - HHH000412: Hibernate Core {4.2.10.Final}
+2016-02-04 16:35:31 INFO  [org.hibernate.cfg.Environment] <clinit>:238 - HHH000206: hibernate.properties not found
+2016-02-04 16:35:31 INFO  [org.hibernate.cfg.Environment] buildBytecodeProvider:345 - HHH000021: Bytecode provider name : javassist
+2016-02-04 16:35:31 WARN  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-04 16:35:31 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:134 - HHH000115: Hibernate connection pool size: 20
+2016-02-04 16:35:31 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:137 - HHH000006: Autocommit mode: true
+2016-02-04 16:35:31 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:151 - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:src/main/java/org/extra06JPA/database]
+2016-02-04 16:35:31 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:156 - HHH000046: Connection properties: {user=sa, password=****, autocommit=true, release_mode=auto}
+2016-02-04 16:35:32 INFO  [org.hibernate.dialect.Dialect] <init>:130 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-02-04 16:35:32 INFO  [java.org.testSuite.AllTests] printStat:138 - 
+activity02	activity03	activity04	activity05	activity06	activity07	activity08	activity09	activity10	activity11	activity12	activity13	activity14	activity15	activity16	activity17	activity18	activity19	activity20	extra01MathExercises	extra02LetsRide	extra03BridgePattern	extra04ObserverPattern	extra05StringTokenizer	extra06JPA	
+=1/1	=11/12	=4/4	=3/3	=4/6	=8/8	=4/4	=0/3	=0/1	=0/3	=0	=0	=0/1	=0/5	=0/6	=0/5	=0	=0/1	=1/1	=0/4	=0/4	=0/1	=0/1	=0/4	=0/2	
+
+Total result for exercises:	=6/25
+2016-02-04 16:36:30 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:36:30 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:36:30 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[0e281 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 9 wheels]>
+2016-02-04 16:37:01 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:37:01 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:37:01 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[Cannot drive on WaterRoad Rīga — Ventspils, 240km]> but was:<[db201 Vehicle is driving on WaterRoadRīga — Ventspils,240km with 2 wheels]>
+2016-02-04 16:39:34 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:39:34 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:39:34 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-04 16:46:38 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-04 16:46:49 INFO  [java.org.activity03.OwlFarmTest] testRun:52 - OK
+2016-02-04 16:46:49 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-04 16:46:53 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-04 16:46:53 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-04 16:46:59 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Emiv ☻
+2016-02-04 16:47:05 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-04 16:47:29 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:48:40 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:48:40 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:48:40 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 16:57:04 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 16:57:04 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 16:57:04 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 17:05:27 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 17:05:27 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 17:05:27 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 17:10:05 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 17:10:05 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 17:10:05 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 17:14:40 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-04 17:14:40 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-04 17:14:40 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...on Rīga — Ogre, 37km[. Necessary fuel:3.70l, fuel in tank:0.00l]> but was:<...on Rīga — Ogre, 37km[]>
+2016-02-04 17:15:03 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-04 17:15:03 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-04 17:15:03 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-04 17:15:03 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-04 17:15:03 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-04 17:15:09 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-04 17:15:09 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-04 17:15:09 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-04 17:15:09 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-05 09:13:30 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 09:13:30 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 09:13:30 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...t drive on WaterRoad[ Rīga — Ventspils, ]240km> but was:<...t drive on WaterRoad[Rīga — Ventspils,]240km>
+2016-02-05 09:13:30 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...t drive on WaterRoad[ Rīga — Ventspils, ]240km> but was:<...t drive on WaterRoad[Rīga — Ventspils,]240km>
+2016-02-05 09:14:07 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 09:14:07 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 09:14:08 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...t drive on WaterRoad[ ]Rīga — Ventspils, 24...> but was:<...t drive on WaterRoad[]Rīga — Ventspils, 24...>
+2016-02-05 09:14:08 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<...t drive on WaterRoad[ ]Rīga — Ventspils, 24...> but was:<...t drive on WaterRoad[]Rīga — Ventspils, 24...>
+2016-02-05 09:14:44 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 09:14:44 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 09:14:44 INFO  [java.org.activity06.EncapsulationTest] testVehicle:188 - OK
+2016-02-05 09:14:44 INFO  [java.org.activity06.EncapsulationTest] testTransport:129 - OK
+2016-02-05 10:28:44 INFO  [java.org.activity02.HelloTest] testMain:42 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-05 10:29:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-05 10:29:53 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-05 10:31:13 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-05 10:31:13 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-05 10:31:56 INFO  [java.org.activity03.OwlFarmTest] testRun:52 - OK
+2016-02-05 10:31:56 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-05 10:32:28 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK N ☻
+2016-02-05 10:32:49 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-05 10:42:35 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 10:42:35 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 10:42:35 INFO  [java.org.activity06.EncapsulationTest] testVehicle:188 - OK
+2016-02-05 10:42:35 INFO  [java.org.activity06.EncapsulationTest] testTransport:129 - OK
+2016-02-05 10:43:38 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 10:43:38 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 10:43:38 INFO  [java.org.activity06.EncapsulationTest] testVehicle:188 - OK
+2016-02-05 10:43:38 INFO  [java.org.activity06.EncapsulationTest] testTransport:129 - OK
+2016-02-05 10:44:19 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-05 10:44:19 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-05 10:44:19 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-05 10:44:19 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-05 10:44:19 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-05 10:44:58 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-05 10:44:58 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-05 10:44:58 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-05 10:44:58 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-05 10:50:13 INFO  [java.org.activity09.ListSetMapTest] testCuantityMap:97 - OK
+2016-02-05 10:50:13 INFO  [java.org.activity09.ListSetMapTest] testFoodList:50 - OK
+2016-02-05 10:50:13 INFO  [java.org.activity09.ListSetMapTest] testRemoveDuplicatesSet:77 - OK
+2016-02-05 13:44:43 INFO  [java.org.activity09.ListSetMapTest] testCuantityMap:97 - OK
+2016-02-05 13:44:43 INFO  [java.org.activity09.ListSetMapTest] testFoodList:50 - OK
+2016-02-05 13:44:43 INFO  [java.org.activity09.ListSetMapTest] testRemoveDuplicatesSet:77 - OK
+2016-02-05 15:24:43 INFO  [java.org.activity10.ReaderAndWriter] testMain:72 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity02.HelloTest] testMain:42 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.OwlFarmTest] testRun:52 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Ilexap ☻
+2016-02-05 15:43:29 INFO  [java.org.activity04.ArrayTest] testMain:72 - OK
+2016-02-05 15:43:29 INFO  [java.org.activity04.ArrayTest] testMain:83 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity04.If_SwitchTest] testLesson3:73 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity04.BlackKnightTest] testKnightResponses:59 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity06.EncapsulationTest] testVehicle:188 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity06.EncapsulationTest] testTransport:129 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity09.ListSetMapTest] testCuantityMap:97 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity09.ListSetMapTest] testFoodList:50 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity09.ListSetMapTest] testRemoveDuplicatesSet:77 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity10.ReaderAndWriter] testMain:72 - OK
+2016-02-05 15:43:30 INFO  [java.org.activity11.ArrayFillerManagerTest] testLatency:48 - Sequential processing time: 0 ms
+2016-02-05 15:43:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-05 15:43:30 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.AssertionError
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[JAVA.LANG.FLOAT
+JAVA.LANG.LONG
+JAVA.LANG.INTEGER
+JAVA.LANG.DOUBLE
+]> but was:<[]>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<NEW_YEAR> but was:<null>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - junit.framework.AssertionFailedError
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<3> but was:<-1>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - junit.framework.AssertionFailedError
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<2> but was:<0>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<4> but was:<0>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<3> but was:<0>
+2016-02-05 15:43:31 ERROR [java.org.activity17.CrocodileGameTest] testRun:61 - logged at error:expected:<[Greedy crocodile wins the game]> but was:<[]>
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.reflect.InvocationTargetException
+2016-02-05 15:43:31 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.AssertionError
+2016-02-05 15:43:32 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-05 15:43:32 ERROR [java.org.activity20.LambdaClassTest1] testLambdaClass:31 - FAILED: message:Values should be different. Actual:  cause:null
+2016-02-05 15:43:32 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<[BLACK SQUARE GREEN TRIANGLE]> but was:<[]>
+2016-02-05 15:43:32 ERROR [test.java.org.TestUtils] handleError:138 - FAILED expected:<FIRSTSTATECHANGE:7[THISISAPRIMENUMBER:TRUEFACTORIALIS:5040NUMBERINPOWER4IS:2401.0SECONDSTATECHANGE:4THISISAPRIMENUMBER:FALSEFACTORIALIS:24NUMBERINPOWER4IS:256.0]> but was:<FIRSTSTATECHANGE:7[SECONDSTATECHANGE:4]>
+2016-02-05 15:43:32 ERROR [test.java.org.TestUtils] handleError:140 - java.lang.NullPointerException
+2016-02-05 15:43:33 INFO  [hibernate.annotations.common.Version] <clinit>:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2016-02-05 15:43:33 INFO  [org.hibernate.Version] logVersion:41 - HHH000412: Hibernate Core {4.2.10.Final}
+2016-02-05 15:43:33 INFO  [org.hibernate.cfg.Environment] <clinit>:238 - HHH000206: hibernate.properties not found
+2016-02-05 15:43:33 INFO  [org.hibernate.cfg.Environment] buildBytecodeProvider:345 - HHH000021: Bytecode provider name : javassist
+2016-02-05 15:43:34 WARN  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2016-02-05 15:43:34 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:134 - HHH000115: Hibernate connection pool size: 20
+2016-02-05 15:43:34 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:137 - HHH000006: Autocommit mode: true
+2016-02-05 15:43:34 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:151 - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:src/main/java/org/extra06JPA/database]
+2016-02-05 15:43:34 INFO  [jdbc.connections.internal.DriverManagerConnectionProviderImpl] configure:156 - HHH000046: Connection properties: {user=sa, password=****, autocommit=true, release_mode=auto}
+2016-02-05 16:22:55 INFO  [java.org.activity02.HelloTest] testMain:42 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testIncrement:137 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testMultiplication:80 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testAddition:42 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testSubstraction:61 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testModulus:118 - OK
+2016-02-05 16:23:11 INFO  [java.org.activity03.BasicMathFunctionsTest] testDivision:99 - OK
+2016-02-05 16:23:17 INFO  [java.org.activity03.OwlFarmTest] testRun:52 - OK
+2016-02-05 16:23:17 INFO  [java.org.activity03.OwlFarmTest] testChangeName:73 - OK
+2016-02-05 16:23:23 INFO  [java.org.activity03.OwlTest] testOwl:38 - OK
+2016-02-05 16:23:23 INFO  [java.org.activity03.OwlTest] testOwl:51 - OK
+2016-02-05 16:23:29 INFO  [java.org.activity03.RandomPersonTest] testMethods:120 - OK Iwar ☻
+2016-02-05 16:23:35 INFO  [java.org.activity03.ZodiacTest] testGetZodiac:46 - OK
+2016-02-05 16:24:37 INFO  [java.org.activity04.ArrayTest] testMain:72 - OK
+2016-02-05 16:24:37 INFO  [java.org.activity04.ArrayTest] testMain:83 - OK
+2016-02-05 16:24:43 INFO  [java.org.activity04.BlackKnightTest] testKnightResponses:59 - OK
+2016-02-05 16:24:43 INFO  [java.org.activity04.BlackKnightTest] testStaticCounters:83 - OK
+2016-02-05 16:24:48 INFO  [java.org.activity04.If_SwitchTest] testLesson3:73 - OK
+2016-02-05 16:27:07 INFO  [java.org.activity06.EncapsulationTest] testShip:156 - OK
+2016-02-05 16:27:07 INFO  [java.org.activity06.EncapsulationTest] testAmphibia:221 - OK
+2016-02-05 16:27:07 INFO  [java.org.activity06.EncapsulationTest] testVehicle:188 - OK
+2016-02-05 16:27:07 INFO  [java.org.activity06.EncapsulationTest] testTransport:129 - OK
+2016-02-05 16:28:20 INFO  [java.org.activity07.AlienFromMarsTest] testDoubleWeight:51 - OK
+2016-02-05 16:28:20 INFO  [java.org.activity07.AlienFromMarsTest] testSing:89 - OK
+2016-02-05 16:28:20 INFO  [java.org.activity07.AlienFromMarsTest] testSing:93 - OK
+2016-02-05 16:28:20 INFO  [java.org.activity07.AlienFromMarsTest] testEatHuman:72 - OK
+2016-02-05 16:28:20 INFO  [java.org.activity07.AlienFromMarsTest] testKillHimself:112 - OK
+2016-02-05 16:28:28 INFO  [java.org.activity07.HumanTest] testHumanStringInt:70 - OK
+2016-02-05 16:28:28 INFO  [java.org.activity07.HumanTest] testSing:86 - OK
+2016-02-05 16:28:28 INFO  [java.org.activity07.HumanTest] testHumanString:51 - OK
+2016-02-05 16:28:28 INFO  [java.org.activity07.HumanTest] testKillHimself:105 - OK
+2016-02-05 16:29:40 INFO  [java.org.activity09.ListSetMapTest] testCuantityMap:97 - OK
+2016-02-05 16:29:40 INFO  [java.org.activity09.ListSetMapTest] testFoodList:50 - OK
+2016-02-05 16:29:40 INFO  [java.org.activity09.ListSetMapTest] testRemoveDuplicatesSet:77 - OK
+2016-02-05 16:29:48 INFO  [java.org.activity10.ReaderAndWriter] testMain:72 - OK
+2016-02-05 16:56:02 INFO  [java.org.activity10.ReaderAndWriter] testMain:72 - OK
