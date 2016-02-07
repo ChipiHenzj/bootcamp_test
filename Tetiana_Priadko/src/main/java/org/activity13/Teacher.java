@@ -12,20 +12,24 @@ public class Teacher {
 
 	public Teacher(int id, String firstName, String lastName) {
 		// TODO process passed values
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		
 	}
 
 	public int getID() {
 		// TODO return required value
-		return 0;
+		return id;
 	}
 
 	public String getFirstName() {
 		// TODO return required value
-		return "";
+		return "firstName";
 	}
 
 	public String getLastName() {
 		// TODO return required value
-		return "";
+		return "lastName";
 	}
 }
