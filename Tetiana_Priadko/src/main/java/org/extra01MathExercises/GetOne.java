@@ -4,7 +4,7 @@ public class GetOne {
 
 	public static void main(String[] args) {
 		GetOne test = new GetOne();
-		System.out.println(test.numbCount(5));
+		System.out.println(test.maxNumbers(5));
 	}
 
 	public int numbCount(int number) {
@@ -37,6 +37,20 @@ public class GetOne {
 		// numberlimit (excluding numberlimit itself) needs to get value till 1.
 		// Return the number, which takes most iterations to do that.
 
+		while ((numberlimit-1) != 1) {
+			numberlimit--;
+			longestPath++;
+			if ((numberlimit % 2) == 0) {
+				numberlimit /= 2;
+				longestPath++;
+			} else {
+				numberlimit *= 3;
+				numberlimit++;
+				longestPath++;
+			}
+		}
+		
+		
 		return longestPath;
 	}
 }
