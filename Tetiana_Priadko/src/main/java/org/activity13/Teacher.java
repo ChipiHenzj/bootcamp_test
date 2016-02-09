@@ -25,11 +25,11 @@ public class Teacher {
 
 	public String getFirstName() {
 		// TODO return required value
-		return "firstName";
+		return firstName;
 	}
 
 	public String getLastName() {
 		// TODO return required value
-		return "lastName";
+		return lastName;
 	}
 }
