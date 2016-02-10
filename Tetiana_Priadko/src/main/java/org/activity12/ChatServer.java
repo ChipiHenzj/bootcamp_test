@@ -41,7 +41,7 @@ public class ChatServer implements Runnable {
 	
 	 try {
          ServerSocket server = new ServerSocket(port);
-//         server.start();
+         
          } catch (IOException e) {
          e.printStackTrace();
      }

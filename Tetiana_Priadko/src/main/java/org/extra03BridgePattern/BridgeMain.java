@@ -13,10 +13,15 @@ public class BridgeMain {
 
 	public static void main(String[] args) {
 		/*
-		 * TODO Investigate how pattern is made and do a simple task: Create two
+		 * Investigate how pattern is made and do a simple task: Create two
 		 * objects by using BridgePattern classes. First object should be Black
 		 * square and second should be green triangle.
 		 */
 
+		Shape square = new Square(new Black());
+		square.colorIt();
+
+		Shape triangle = new Triangle(new Green());
+		triangle.colorIt();
 	}
 }
