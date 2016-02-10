@@ -17,6 +17,12 @@ public class StudentManager {
 		// TODO save passed connection object into local conn object
 		// and use it in all methods
 
+		this.conn = conn;
+		try {
+			conn.setAutoCommit(false);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -34,15 +40,21 @@ public class StudentManager {
 
 		List<Student> results = new ArrayList<Student>();
 
-		
+		// PreparedStatement pStmt = conn.prepareStatement
+		// ("select * from Student where upper(FIRSTNAME)= ?"
+		// + " and upper(LASTNAME) = ? "
+		// + " order by ID ASC");
+		// pStmt.setString(1, firstName.toUpperCase());
+		// pStmt.setString(2, lastName.toUpperCase());
 
-		
-		PreparedStatement pStmt = conn.prepareStatement
-		("select * from Student where upper(FIRSTNAME)= ?"
-		+ " and upper(LASTNAME) = ? "
-		+ " order by ID ASC");
-		pStmt.setString(1, firstName.toUpperCase());
-		pStmt.setString(2, lastName.toUpperCase());
+		PreparedStatement pStmt = conn
+				.prepareStatement("select * from Student where upper(FIRSTNAME) LIKE "
+						+ "'%"
+						+ firstName.toUpperCase()
+						+ "%'"
+						+ " and upper(LASTNAME) LIKE "
+						+ "'%"
+						+ lastName.toUpperCase() + "%'" + " order by ID ASC");
 
 		ResultSet rs = pStmt.executeQuery();
 		while (rs.next()) {
@@ -68,7 +80,7 @@ public class StudentManager {
 
 		PreparedStatement pStmt = null;
 		pStmt = conn
-				.prepareStatement("SELECT * FROM database_activity.Student WHERE id = ? ");
+				.prepareStatement("SELECT * FROM Student WHERE id = ? ");
 
 		pStmt.setInt(1, id);
 		ResultSet rs = pStmt.executeQuery();
@@ -89,19 +101,16 @@ public class StudentManager {
 	 * @throws SQLException
 	 */
 
-	
-	
 	public boolean insertStudent(String firstName, String lastName)
-	throws SQLException {
-	PreparedStatement pStmt = conn
-	.prepareStatement("insert into student (firstname, lastname)"
-	+ " VALUES (?,?)");
-	pStmt.setString(1, firstName);
-	pStmt.setString(2, lastName);
-	pStmt.executeUpdate();
-	conn.commit();
-	return true;
-	
+			throws SQLException {
+		PreparedStatement pStmt = conn
+				.prepareStatement("insert into Student (firstname, lastname)"
+						+ " VALUES (?,?)");
+		pStmt.setString(1, firstName);
+		pStmt.setString(2, lastName);
+		pStmt.executeUpdate();
+		conn.commit();
+		return true;
 	}
 
 	/**
@@ -121,7 +130,7 @@ public class StudentManager {
 			throws SQLException {
 
 		PreparedStatement pStmt = conn
-				.prepareStatement("insert into Student (id, firstname, lastname) VALUES (?, ?,?)");
+				.prepareStatement("insert into Student (id, firstname, lastname) VALUES (?,?,?)");
 
 		pStmt.setString(1, Integer.toString(id));
 		pStmt.setString(2, firstName);
@@ -129,7 +138,6 @@ public class StudentManager {
 		pStmt.executeUpdate();
 		conn.commit();
 		return true;
-
 	}
 
 	/**
@@ -161,7 +169,6 @@ public class StudentManager {
 		} else {
 			return false;
 		}
-
 	}
 
 	/**
@@ -174,24 +181,21 @@ public class StudentManager {
 	 * @throws SQLException
 	 */
 
-	
-
-	
 	public boolean deleteStudent(int id) throws SQLException {
-	
-	PreparedStatement pStmt = conn
-	.prepareStatement("DELETE FROM STUDENT WHERE ID = " + id);
-	
-	int rows = pStmt.executeUpdate();
-	
-	conn.commit();
-	pStmt.close();
-	
-	if (rows == 1) {
-	return true;
-	} else {
-	return false;
-	}
-	
+
+		PreparedStatement pStmt = conn
+				.prepareStatement("DELETE FROM Student WHERE ID = " + id);
+
+		int rows = pStmt.executeUpdate();
+
+		conn.commit();
+		pStmt.close();
+
+		if (rows == 1) {
+			return true;
+		} else {
+			return false;
+		}
+
 	}
 }
