@@ -7,17 +7,16 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-// TODO Create JUnit test for Student class. If you found bugs in this code, just fix it. 
+// Create JUnit test for Student class. If you found bugs in this code, just fix it. 
 // Use EclEmma, try check what is code coverage. Try to reach as much coverage as possible.
 
 public class StudentManager {
 	private static Connection conn;
 
 	public StudentManager(Connection conn) {
-		// TODO save passed connection object into local conn object
+		// save passed connection object into local conn object
 		// and use it in all methods
-
-		this.conn = conn;
+		StudentManager.conn = conn;
 		try {
 			conn.setAutoCommit(false);
 		} catch (SQLException e) {
@@ -39,13 +38,6 @@ public class StudentManager {
 			throws Exception {
 
 		List<Student> results = new ArrayList<Student>();
-
-		// PreparedStatement pStmt = conn.prepareStatement
-		// ("select * from Student where upper(FIRSTNAME)= ?"
-		// + " and upper(LASTNAME) = ? "
-		// + " order by ID ASC");
-		// pStmt.setString(1, firstName.toUpperCase());
-		// pStmt.setString(2, lastName.toUpperCase());
 
 		PreparedStatement pStmt = conn
 				.prepareStatement("select * from Student where upper(FIRSTNAME) LIKE "
@@ -104,7 +96,7 @@ public class StudentManager {
 	public boolean insertStudent(String firstName, String lastName)
 			throws SQLException {
 		PreparedStatement pStmt = conn
-				.prepareStatement("insert into Student (firstname, lastname)"
+				.prepareStatement("insert into student (firstname, lastname)"
 						+ " VALUES (?,?)");
 		pStmt.setString(1, firstName);
 		pStmt.setString(2, lastName);
@@ -130,7 +122,7 @@ public class StudentManager {
 			throws SQLException {
 
 		PreparedStatement pStmt = conn
-				.prepareStatement("insert into Student (id, firstname, lastname) VALUES (?,?,?)");
+				.prepareStatement("insert into Student (id, firstname, lastname) VALUES (?, ?,?)");
 
 		pStmt.setString(1, Integer.toString(id));
 		pStmt.setString(2, firstName);
@@ -184,7 +176,7 @@ public class StudentManager {
 	public boolean deleteStudent(int id) throws SQLException {
 
 		PreparedStatement pStmt = conn
-				.prepareStatement("DELETE FROM Student WHERE ID = " + id);
+				.prepareStatement("DELETE FROM STUDENT WHERE ID = " + id);
 
 		int rows = pStmt.executeUpdate();
 
@@ -196,6 +188,5 @@ public class StudentManager {
 		} else {
 			return false;
 		}
-
 	}
 }
